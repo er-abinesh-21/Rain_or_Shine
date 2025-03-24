@@ -15,7 +15,7 @@ const Weather = () => {
         setLoading(true);
         setError('');
         try {
-            const response = await axios.get(`http://localhost:5000/weather`, {
+            const response = await axios.get(`https://rain-or-shine-backend.onrender.com`, {
                 params: { city, unit },
             });
             setWeather(response.data);
