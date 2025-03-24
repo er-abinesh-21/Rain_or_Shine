@@ -4,6 +4,8 @@
 
 Rain or Shine is a responsive web application designed to fetch and display real-time weather data from the OpenWeatherMap API. This project demonstrates the integration of a public API, user-friendly design principles, and responsive web development techniques. Whether you're curious about the current weather in your city or planning a trip, Rain or Shine offers an intuitive and efficient way to stay informed.
 
+![Screenshot 2025-03-24 151853](https://github.com/user-attachments/assets/6d5d4dbe-0139-45ff-8be4-129d57bfaf54)
+
 ---
 
 ## 🛠️ Features
@@ -70,20 +72,26 @@ Follow these instructions to set up the project locally:
 
 1. Home Page  
 
-  
-  
+  ![Screenshot 2025-03-24 152657](https://github.com/user-attachments/assets/d6994dfd-e9c8-4920-9919-d57bb7813d32)
 
+  
 2. Search Results
 
 ### Demo 1:
 
-   
-   
+ ![Screenshot 2025-03-24 151853](https://github.com/user-attachments/assets/95a87d49-a1de-4971-8f77-e4d096ede6fc)
+ 
 
 ### Demo 2:
 
+  ![Screenshot 2025-03-24 151651](https://github.com/user-attachments/assets/2180a64e-dd43-4244-af87-aa4b9fc231d0)
 
-   
+
+### Demo 3:
+
+  ![Screenshot 2025-03-24 152248](https://github.com/user-attachments/assets/bbdcc577-406c-4171-bc51-e46a5cb0b509)
+
+
 ---
 
 ## 🌟 Future Enhancements
