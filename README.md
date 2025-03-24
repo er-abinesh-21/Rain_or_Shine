@@ -115,6 +115,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 🌐 Live Demo
 
-Check out the live version of the app: [Rain or Shine Demo](https://rain-or-shine-701q.onrender.com/)
+Check out the live version of the app: [Rain or Shine Demo](https://rain-or-shine-22ts.onrender.com/)
 
 ---
