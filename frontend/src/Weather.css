@@ -1,0 +1,190 @@
+@media (max-width: 480px) {
+    .weather-card {
+      padding: 15px;
+    }
+  
+    .city-input {
+      padding: 8px;
+    }
+  
+    .get-weather-btn {
+      padding: 8px 15px;
+    }
+  
+    .temperature {
+      font-size: 2rem;
+    }
+  
+    .description,
+    .location {
+      font-size: 1rem;
+    }
+  
+    .humidity span,
+    .wind-speed span {
+      font-size: 1rem;
+    }
+  }
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("../Images/blue-sky-gradient-watercolor-background-free-vector.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .weather-container {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .weather-card {
+    background: linear-gradient(rgb(231, 167, 57), rgb(189, 181, 181), rgb(23, 92, 166));
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .city-input {
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  .city-input:hover {
+    border-color: white;
+  }
+  
+  .get-weather-btn {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 255, 0.8);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .get-weather-btn:hover {
+    background: rgba(0, 0, 255, 1);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .icon-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info-section {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .location {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  .additional-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .humidity,
+  .wind-speed {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .humidity img,
+  .wind-speed img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .unit-selection {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .unit-selection label {
+    margin: 0 10px;
+  }
+  
+  .unit-selection input[type="radio"] {
+    margin-right: 5px;
+  }

@@ -1,0 +1,44 @@
+body {
+  background: url("../Images/blue-sky-gradient-watercolor-background-free-vector.jpg");
+  background-size: cover; /* Ensures the image covers the entire screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  color: white;
+  border: solid 2px rgb(104, 174, 255);
+  border-radius: 30px;
+  box-shadow: 0 0 30px 15px rgb(68, 113, 165);
+  background: linear-gradient(rgb(231, 167, 57), rgb(189, 181, 181), rgb(23, 92, 166));
+  width: 90%; /* Responsive width */
+  max-width: 700px; /* Maximum width for larger screens */
+  height: auto; /* Auto height to adapt content */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.container {
+  letter-spacing: 1px;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-align text */
+  margin-bottom: 20px; /* Add spacing below the container */
+}
+
+.logo {
+  width: 100px; /* Responsive logo size */
+  height: auto;
+}
+
+.title {
+  font-size: 1.5rem; /* Responsive font size */
+  margin-top: 10px;
+}
